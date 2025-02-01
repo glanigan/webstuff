@@ -22,6 +22,8 @@
       "composite": true,
       "declarationMap": true,
       "lib": ["es2022", "dom", "dom.iterable"],
-      "jsx": "react-jsx"
-    }
+      "jsx": "react-jsx",
+      "emitDeclarationOnly": true
+    },
+    "include": ["src", "index.ts"],
   }

@@ -1,8 +1,11 @@
 @import 'tailwindcss';
+@source "../../node_modules/@webstuff/ui";
 
 @theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  --color-border: var(--color-gray-600, currentColor)
 }
 
 /*
@@ -19,7 +22,7 @@
   ::before,
   ::backdrop,
   ::file-selector-button {
-    border-color: var(--color-gray-200, currentColor);
+    border-color: var(--color-border, currentColor);
   }
 }
 
