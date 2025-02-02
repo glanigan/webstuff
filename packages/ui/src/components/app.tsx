@@ -1,6 +1,5 @@
-import { PropsWithChildren } from "react";
+import { PropsWithChildren } from 'react';
 
-export function AppContext({ children }: PropsWithChildren){
-
-    return children
+export function AppContext({ children }: PropsWithChildren) {
+  return children;
 }
